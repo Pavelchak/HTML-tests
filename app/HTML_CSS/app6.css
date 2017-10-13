@@ -1,0 +1,20 @@
+
+
+
+body {
+    background-color: #77f;
+    background-attachment: scroll;
+    background-image: url('HTML_CSS/picture/sky.png');
+}
+
+.strip {
+    width: 80%;
+    margin-left: 10%;
+    height: 20px;
+    background-color: #ccc; /* safe color */
+    background-color: rgba(255,255,255,0.8);
+    margin-bottom: 200px;
+    z-index: 5;
+}
+
+

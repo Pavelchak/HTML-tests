@@ -1,0 +1,83 @@
+
+.clear {clear:both}
+
+
+h1 {
+    color: #369;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200%;
+    text-align:justify;
+    text-indent: 20px;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+
+    float: left;
+
+    width: 300px;
+    height: 100px;
+    padding: 30px;
+    border: 2px solid #889;
+    margin: 10px ;
+
+    background-color: yellow;
+
+
+}
+h2 {
+    color: #ff0505;
+    font-family: Arial, sans-serif, Helvetica;
+    font-size: 200%;
+    background-color: yellow;
+
+}
+p { font: italic bold 12px/18px Arial, Helvetica, sans-serif; }
+
+#Vasia{
+    color: #990d00;
+    font-family: Helvetica, Helvetica, sans-serif;
+    font-size: 120%;
+}
+#Vova{
+    color: #569;
+    font-family: Helvetica, Helvetica, sans-serif;
+    font-size: 300%;
+}
+.Andrii{
+    color: #ff0068;
+    font-family: Helvetica, Helvetica, sans-serif;
+    font-size: 36px;
+position: relative; left: 10px; top: 10px;
+}
+
+div.news-block {
+    color: red;
+    background-color: yellow;
+    font: italic bold 12px/18px Arial, Helvetica, sans-serif;
+}
+
+/*img[src$=".jpg"], #bottom-block>p {display:none;}*/
+
+html, body, #wrapper {
+    height:100%
+}
+#wrapper {
+    margin: 0 auto
+}
+#main-block {
+    min-height: 100%
+}
+#bottom-block {
+    height: 50px;
+    position: relative;
+    top: -50px;
+}
+
+
+
+
+
+
+
+
+
+
+

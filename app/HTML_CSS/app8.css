@@ -1,0 +1,65 @@
+.blue-circle {
+    width:300px;
+    height:300px;
+    border-radius:100px;
+    font-size: 25px;
+    text-align: center;
+    background: yellow;
+
+transition-property: border-radius, background;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+    transition-delay: 0.1s ;
+
+}
+
+.blue-circle:hover {
+    Border-radius: 0;
+
+    background: red;
+}
+
+div.news-block  {
+    color: red;
+    font: italic bold 26px/30px Arial, Helvetica, sans-serif;
+
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 50px ;
+
+    position:relative;
+}
+
+.traffic-light {
+    height: 130px;
+    width: 50px;
+    border-radius:10px;
+    background:gray;
+    position:relative;
+}
+
+.circle {
+    width:30px; height:30px;
+    border-radius:15px;
+    background: lightblue;
+    position:absolute;
+    top:10px;  left:10px;
+}
+@-webkit-keyframes animate-it {
+    0% {top:10px;}
+    45% {top:10px;}
+    46% {top:50px;}
+    54% {top:50px;}
+    55% {top:90px;}
+    100% {top:90px;}
+}
+.traffic-light:hover .circle {
+    -webkit-animation: animate-it 3s linear infinite alternate;
+}
+
+.traffic-light:active .circle {
+    animation-play-state: paused;
+}
+
+
