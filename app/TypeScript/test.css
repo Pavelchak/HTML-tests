@@ -1,0 +1,39 @@
+body{
+    background-color: #83f0fa;
+}
+
+.value-block  {
+    font: italic 14px/18px Arial, Helvetica, sans-serif;
+    float: left;
+    width: 100px;
+    height: 40px;
+    /*padding: 30px;*/
+    /*border: 2px solid #889;*/
+    margin: 5px ;
+    /*bottom: 0px;*/
+
+
+    vertical-align: text-bottom;
+
+    position:relative;
+}
+#value1:invalid{
+    background-color: salmon;
+}
+#value1:invalid, #value2:invalid{
+    background-color: salmon;
+}
+
+#fset1{
+    max-width: 450px ;
+    font: bold 14px/18px Arial, Helvetica, sans-serif;
+    background-color: aquamarine;
+}
+
+.ranger{
+    font: 14px/18px Arial, Helvetica, sans-serif;
+}
+
+#typeOperation{
+    width: 120px;
+}

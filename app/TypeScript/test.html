@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="test.css" type="text/css">
+
+    <script src='//code.jquery.com/jquery-3.2.1.min.js'></script>
+
+    <script src='J_query.js'></script>
+
+    <title>Test TypeScript</title>
+</head>
+<body>
+<form name="calculator">
+
+    <fieldset id="fset1">
+        <legend id="legend1">Операція додавання</legend>
+        <div class="ranger">
+            <label>
+                Виберіть операцію
+                <div>
+                    <input type="range" id="typeOperation" min="0" max="3" value=0>
+                </div>
+            </label>
+        </div>
+        <div class="value-block">
+            <label>
+                Значення 1:
+                <input type="text" id="value1" name="value" size="10" maxlength="8"  pattern="^[0-9]{1,}[.]{0,1}[0-9]{0,}$" title="Введіть число">
+            </label>
+        </div>
+
+        <div class="value-block">
+            <label>
+                Значення 2:
+                <input type="text" id="value2" name="value" size="10" maxlength="8" pattern="^[0-9]{1,}[.]{0,1}[0-9]{0,}$" title="Введіть число">
+            </label>
+        </div>
+
+        <div class="value-block">
+            <input type="button" id="butM" name="button_mult" value="Додати"
+                   style="height: 40px; width: 100px;">
+        </div>
+
+        <div class="value-block">
+            <label>
+                Результат:
+                <input type="text" id="value3" size="10" maxlength="8" readonly>
+            </label>
+        </div>
+
+
+        <!--<button name="submit">-->
+        <!--<strong>Send Us</strong> a Message-->
+        <!--</button>-->
+
+    </fieldset>
+
+
+</form>
+
+<script src="program.js"></script>
+
+<button id="calc_hide_button">Сховати калькулятор</button>
+<button id="calc_clear_button">Сховати слайд</button>
+
+</body>
+</html>
